@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\MovieLibrary",
-    "\\MovieLibrary\\Presentation"
+    "\\MovieLibrary\\Presentation",
+    "\\MovieLibrary\\Presentation\\AccountCreation"
   ],
-  "SelectedNode": "\\MovieLibrary\\MovieLibrary.sln",
+  "SelectedNode": "\\MovieLibrary\\Presentation\\AccountCreation\\RecoveryKeyPage.cs",
   "PreviewInSolutionExplorer": false
 }
