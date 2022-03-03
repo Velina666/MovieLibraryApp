@@ -158,7 +158,7 @@
             this.btnCreateAccount.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnCreateAccount.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Goldenrod;
             this.btnCreateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreateAccount.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCreateAccount.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCreateAccount.Location = new System.Drawing.Point(34, 370);
             this.btnCreateAccount.Name = "btnCreateAccount";
             this.btnCreateAccount.Size = new System.Drawing.Size(242, 31);

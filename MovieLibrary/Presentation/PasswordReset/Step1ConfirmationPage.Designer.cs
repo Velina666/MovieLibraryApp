@@ -106,7 +106,7 @@
             this.btnNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Goldenrod;
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNext.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNext.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnNext.Location = new System.Drawing.Point(199, 262);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(88, 28);
