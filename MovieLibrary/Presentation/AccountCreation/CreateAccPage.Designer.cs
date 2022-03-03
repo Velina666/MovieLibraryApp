@@ -209,7 +209,7 @@
             this.lblExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblExit.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lblExit.ForeColor = System.Drawing.Color.Crimson;
             this.lblExit.Location = new System.Drawing.Point(301, -3);
             this.lblExit.Name = "lblExit";
             this.lblExit.Size = new System.Drawing.Size(21, 23);
