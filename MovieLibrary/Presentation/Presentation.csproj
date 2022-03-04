@@ -9,7 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="MainMenu\" />
+    <Compile Remove="MainMenu\**" />
+    <EmbeddedResource Remove="MainMenu\**" />
+    <None Remove="MainMenu\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

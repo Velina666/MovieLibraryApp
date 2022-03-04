@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Presentation.PasswordReset;
 
 namespace Presentation.Login
 {
@@ -18,7 +19,7 @@ namespace Presentation.Login
         }
 
         /// <summary>
-        /// Clears the text box and change the ForeColor of the textBox and the color of the underline
+        /// Clears the text box and lblException and change the ForeColor of the textBox and the color of the underline
         /// </summary>
         private void txtBoxUsr_Enter(object sender, EventArgs e)
         {
@@ -26,6 +27,7 @@ namespace Presentation.Login
             {
                 txtBoxUsr.Clear();
             }
+            lblUsrException.Text = "";
             panelUsr.BackColor = Color.Goldenrod;
             txtBoxUsr.ForeColor = Color.Black;
         }
@@ -71,6 +73,7 @@ namespace Presentation.Login
             panelPass.BackColor = Color.Black;
         }
 
+
         /// <summary>
         /// Change eye color to Goldenrod
         /// </summary>
@@ -85,6 +88,53 @@ namespace Presentation.Login
         private void lblEye_MouseLeave(object sender, EventArgs e)
         {
             lblEye.ForeColor= Color.Black;
+        }
+
+        /// <summary>
+        /// Change the SystemPassChar to oposite on txtBoxPass
+        /// </summary>
+        private void lblEye_Click(object sender, EventArgs e)
+        {
+            bool currentStatus = txtBoxPass.UseSystemPasswordChar;
+            txtBoxPass.UseSystemPasswordChar = !currentStatus;
+        }
+
+        /// <summary>
+        /// Close the application
+        /// </summary>
+        private void lblExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        /// <summary>
+        /// if the text in txtBoxUsr is too short or too long set message in label
+        /// If the account exist,close current page and login into main menu
+        /// </summary>
+        private void btnSignIn_Click(object sender, EventArgs e)
+        {
+            if (txtBoxUsr.Text.Length < 6)
+            {
+                lblUsrException.Text = "*must be at least 8 characters*";
+            }
+            else if (txtBoxUsr.Text.Length > 25)
+            {
+                lblUsrException.Text = "*Username is too long*";
+            }
+            else
+            {
+                //account verfication code
+            }
+        }
+
+        /// <summary>
+        /// Close current windows, and open a new ForgottenPassPage
+        /// </summary>
+        private void lblForgottenPass_Click(object sender, EventArgs e)
+        {
+            ForgottenPassPage fpp = new ForgottenPassPage();
+            this.Hide();
+            fpp.Show();
         }
     }
 }

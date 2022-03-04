@@ -76,3 +76,8 @@ C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\obj\De
 C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\obj\Debug\net6.0-windows\Presentation.pdb
 C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\obj\Debug\net6.0-windows\Presentation.genruntimeconfig.cache
 C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\obj\Debug\net6.0-windows\ref\Presentation.dll
+C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\bin\Debug\net6.0-windows\Business.dll
+C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\bin\Debug\net6.0-windows\Data.dll
+C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\bin\Debug\net6.0-windows\Business.pdb
+C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\bin\Debug\net6.0-windows\Data.pdb
+C:\Users\kocep\OneDrive\Desktop\MovieLibraryApp\MovieLibrary\Presentation\obj\Debug\net6.0-windows\Presentation.csproj.CopyComplete
