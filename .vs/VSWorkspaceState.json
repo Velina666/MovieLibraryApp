@@ -3,8 +3,9 @@
     "",
     "\\MovieLibrary",
     "\\MovieLibrary\\Presentation",
-    "\\MovieLibrary\\Presentation\\AccountCreation"
+    "\\MovieLibrary\\Presentation\\Login",
+    "\\MovieLibrary\\Presentation\\PasswordReset"
   ],
-  "SelectedNode": "\\MovieLibrary\\Presentation\\Program.cs",
+  "SelectedNode": "\\MovieLibrary\\Presentation\\Login\\LoginPage.cs",
   "PreviewInSolutionExplorer": false
 }
