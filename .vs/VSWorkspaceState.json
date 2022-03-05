@@ -2,10 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\MovieLibrary",
-    "\\MovieLibrary\\Data",
-    "\\MovieLibrary\\Presentation",
-    "\\MovieLibrary\\Presentation\\Login",
-    "\\MovieLibrary\\Presentation\\PasswordReset"
+    "\\MovieLibrary\\Presentation"
   ],
   "SelectedNode": "\\MovieLibrary\\MovieLibrary.sln",
   "PreviewInSolutionExplorer": false

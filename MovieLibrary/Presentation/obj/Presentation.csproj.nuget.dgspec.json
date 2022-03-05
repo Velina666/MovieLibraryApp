@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Presentation\\Presentation.csproj": {}
+    "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj": {
+    "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\kocep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Business\\obj\\",
+        "outputPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj": {
+    "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\kocep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Data\\obj\\",
+        "outputPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -120,14 +120,14 @@
         }
       }
     },
-    "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Presentation\\Presentation.csproj",
+        "projectPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\kocep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Presentation\\obj\\",
+        "outputPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,11 +148,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj"
+              "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj"
               },
-              "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\kocep\\OneDrive\\Desktop\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj"
+              "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj"
               }
             }
           }
