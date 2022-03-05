@@ -51,3 +51,5 @@ C:\Users\kocep\Source\Repos\Konstantinn56\MovieLibraryApp\MovieLibrary\MLibUI\bi
 C:\Users\kocep\Source\Repos\Konstantinn56\MovieLibraryApp\MovieLibrary\MLibUI\bin\Debug\net6.0-windows\Data.pdb
 C:\Users\kocep\Source\Repos\Konstantinn56\MovieLibraryApp\MovieLibrary\MLibUI\obj\Debug\net6.0-windows\MLibUI.MainMenu.mainPage.resources
 C:\Users\kocep\Source\Repos\Konstantinn56\MovieLibraryApp\MovieLibrary\MLibUI\obj\Debug\net6.0-windows\MLibUI.csproj.CopyComplete
+C:\Users\kocep\Source\Repos\Konstantinn56\MovieLibraryApp\MovieLibrary\MLibUI\obj\Debug\net6.0-windows\MLibUI.SignUp.SignUpPage.resources
+C:\Users\kocep\Source\Repos\Konstantinn56\MovieLibraryApp\MovieLibrary\MLibUI\obj\Debug\net6.0-windows\MLibUI.PassRecovery.ForgottenPassPage.resources

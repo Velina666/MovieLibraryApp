@@ -38,16 +38,16 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtBoxPass = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblExit = new System.Windows.Forms.Label();
             this.btnSignIn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.linkLblCreateAcc = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.lblUsrException = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblExit = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -90,6 +90,7 @@
             this.lblForgottenPass.Size = new System.Drawing.Size(95, 16);
             this.lblForgottenPass.TabIndex = 20;
             this.lblForgottenPass.Text = "Forgot password";
+            this.lblForgottenPass.Click += new System.EventHandler(this.lblForgottenPass_Click);
             // 
             // txtBoxUsr
             // 
@@ -167,61 +168,6 @@
             this.pictureBox3.TabIndex = 30;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::MLibUI.Properties.Resources.LoginPagePhoto;
-            this.pictureBox4.Location = new System.Drawing.Point(426, -1);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(660, 537);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 32;
-            this.pictureBox4.TabStop = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Black;
-            this.panel3.Controls.Add(this.pictureBox5);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.lblExit);
-            this.panel3.Location = new System.Drawing.Point(-1, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1087, 17);
-            this.panel3.TabIndex = 33;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::MLibUI.Properties.Resources.external_content3;
-            this.pictureBox5.Location = new System.Drawing.Point(13, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 34;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(31, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Sign In";
-            // 
-            // lblExit
-            // 
-            this.lblExit.AutoSize = true;
-            this.lblExit.BackColor = System.Drawing.Color.Black;
-            this.lblExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblExit.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lblExit.Location = new System.Drawing.Point(1070, 2);
-            this.lblExit.Name = "lblExit";
-            this.lblExit.Size = new System.Drawing.Size(14, 15);
-            this.lblExit.TabIndex = 0;
-            this.lblExit.Text = "X";
-            this.lblExit.Click += new System.EventHandler(this.lblExit_Click);
-            // 
             // btnSignIn
             // 
             this.btnSignIn.BackColor = System.Drawing.Color.Gold;
@@ -262,6 +208,7 @@
             this.linkLblCreateAcc.TabIndex = 36;
             this.linkLblCreateAcc.TabStop = true;
             this.linkLblCreateAcc.Text = "Sign Up Now";
+            this.linkLblCreateAcc.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblCreateAcc_LinkClicked);
             // 
             // label1
             // 
@@ -285,19 +232,73 @@
             this.lblUsrException.Size = new System.Drawing.Size(0, 16);
             this.lblUsrException.TabIndex = 38;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::MLibUI.Properties.Resources.external_content5;
+            this.pictureBox4.Location = new System.Drawing.Point(428, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(658, 523);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 39;
+            this.pictureBox4.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Controls.Add(this.pictureBox5);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.lblExit);
+            this.panel3.Location = new System.Drawing.Point(-1, -4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1087, 17);
+            this.panel3.TabIndex = 40;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::MLibUI.Properties.Resources.external_content3;
+            this.pictureBox5.Location = new System.Drawing.Point(13, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 34;
+            this.pictureBox5.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(31, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 16);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Sign In";
+            // 
+            // lblExit
+            // 
+            this.lblExit.AutoSize = true;
+            this.lblExit.BackColor = System.Drawing.Color.Black;
+            this.lblExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblExit.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lblExit.Location = new System.Drawing.Point(1070, 2);
+            this.lblExit.Name = "lblExit";
+            this.lblExit.Size = new System.Drawing.Size(14, 15);
+            this.lblExit.TabIndex = 0;
+            this.lblExit.Text = "X";
+            // 
             // LoginPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1086, 535);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.lblUsrException);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLblCreateAcc);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnSignIn);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panelPass);
             this.Controls.Add(this.panelUsr);
@@ -312,6 +313,7 @@
             this.Name = "LoginPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginPage";
+            this.Load += new System.EventHandler(this.LoginPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -335,15 +337,15 @@
         private PictureBox pictureBox2;
         private TextBox txtBoxPass;
         private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
-        private Panel panel3;
-        private Label lblExit;
-        private Label label2;
-        private PictureBox pictureBox5;
         private Button btnSignIn;
         private Label label3;
         private LinkLabel linkLblCreateAcc;
         private Label label1;
         private Label lblUsrException;
+        private PictureBox pictureBox4;
+        private Panel panel3;
+        private PictureBox pictureBox5;
+        private Label label2;
+        private Label lblExit;
     }
 }

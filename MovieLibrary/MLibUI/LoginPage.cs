@@ -1,15 +1,8 @@
 ﻿using Business;
 using Data.Model;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using MLibUI.MainMenu;
+using MLibUI.SignUp;
+using MLibUI.PassRecovery;
 
 namespace MLibUI
 {
@@ -122,6 +115,7 @@ namespace MLibUI
             Account currentAcc = accountBusiness.Get(txtBoxUsr.Text.ToString());
             if (currentAcc == null || !currentAcc.Password.Equals(txtBoxPass.Text))
             {
+                lblUsrException.Text = "*Invalid username or password*";
                 MessageBox.Show("Incorrect Username or Password!");
             }
             else
@@ -133,5 +127,29 @@ namespace MLibUI
             }
         }
 
+        /// <summary>
+        /// Close current Window, and open new SignUp Window
+        /// </summary>
+        private void linkLblCreateAcc_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SignUpPage sup = new SignUpPage();
+            sup.Show();
+            this.Hide();
+        }
+
+        /// <summary>
+        /// Close current Window, and open new ForgottenPass page
+        /// </summary>
+        private void lblForgottenPass_Click(object sender, EventArgs e)
+        {
+            ForgottenPassPage fpp = new ForgottenPassPage();
+            fpp.Show();
+            this.Hide();
+        }
+
+        private void LoginPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

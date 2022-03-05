@@ -123,6 +123,26 @@ namespace MLibUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap external_content4 {
+            get {
+                object obj = ResourceManager.GetObject("external-content4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap external_content5 {
+            get {
+                object obj = ResourceManager.GetObject("external-content5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GreenTick {
             get {
                 object obj = ResourceManager.GetObject("GreenTick", resourceCulture);
@@ -166,6 +186,16 @@ namespace MLibUI.Properties {
         internal static System.Drawing.Bitmap Logo {
             get {
                 object obj = ResourceManager.GetObject("Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SighnUpBackGround {
+            get {
+                object obj = ResourceManager.GetObject("SighnUpBackGround", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
