@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\MovieLibrary",
+    "\\MovieLibrary\\Data",
     "\\MovieLibrary\\Presentation",
     "\\MovieLibrary\\Presentation\\Login",
     "\\MovieLibrary\\Presentation\\PasswordReset"
   ],
-  "SelectedNode": "\\MovieLibrary\\Presentation\\Login\\LoginPage.cs",
+  "SelectedNode": "\\MovieLibrary\\Data\\Data.csproj",
   "PreviewInSolutionExplorer": false
 }

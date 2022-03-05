@@ -34,4 +34,9 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AccountCreation\" />
+    <Folder Include="PasswordReset\" />
+  </ItemGroup>
+
 </Project>
