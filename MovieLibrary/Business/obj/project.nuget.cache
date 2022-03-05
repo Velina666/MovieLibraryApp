@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/y7I8qg70PxH5iAG22zYPTJ5CP7MWtF7bQxnqDA+C7OqvBwuA07SVrveYettjGcjfCub31bOqKQZECxjfnMQog==",
+  "dgSpecHash": "QeCQbVEbM4hppZO1QviFHPKG7Lwxo8Y+LipvQTxXrQKBgnBIVr818Xn0QB/QUj14ZgSIJ9bW/KCT5y9goqjUqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acer\\Source\\Repos\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\acer\\source\\repos\\MovieLibraryApp\\MovieLibrary\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
