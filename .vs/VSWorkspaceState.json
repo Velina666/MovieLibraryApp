@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MovieLibrary"
+    "\\MovieLibrary",
+    "\\MovieLibrary\\MLibUI"
   ],
+  "SelectedNode": "\\MovieLibrary\\MovieLibrary.sln",
   "PreviewInSolutionExplorer": false
 }
