@@ -115,34 +115,21 @@ namespace MLibUI
         }
 
         /// <summary>
-        /// if the text in txtBoxUsr is too short or too long set message in label
-        /// If the account exist,close current page and login into main menu
+        /// Identify the account, and login into application, throws MessageBow if the user or pass is incorrect
         /// </summary>
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if (txtBoxUsr.Text.Length < 4)
+            Account currentAcc = accountBusiness.Get(txtBoxUsr.Text.ToString());
+            if (currentAcc == null || !currentAcc.Password.Equals(txtBoxPass.Text))
             {
-                lblUsrException.Text = "*must be at least 5 characters*";
-            }
-            else if (txtBoxUsr.Text.Length > 25)
-            {
-                lblUsrException.Text = "*Username is too long*";
+                MessageBox.Show("Incorrect Username or Password!");
             }
             else
             {
-                Account currentAcc = accountBusiness.Get(txtBoxUsr.Text.ToString());
-                if (currentAcc == null || !currentAcc.Password.Equals(txtBoxPass.Text))
-                {
-                    MessageBox.Show("Incorrect Username or Password!");
-                }
-                else
-                {
-                    mainPage mp = new mainPage();
-                    mp.currentAccount = currentAcc;
-                    mp.Show();
-                    this.Hide();
-                }
-
+                mainPage mp = new mainPage();
+                mp.currentAccount = currentAcc;
+                mp.Show();
+                this.Hide();
             }
         }
 
