@@ -9,19 +9,19 @@ using System.Threading.Tasks;
 namespace Data
 {
     /// <summary>
-    /// Film Database Context
+    /// Series Database Context
     /// </summary>
-    public class FilmContext : DbContext
+    public class SeriesContext : DbContext
     {
         /// <summary>
-        /// Films Table
+        /// Series Table
         /// </summary>
-        public DbSet<Film> Films { get; set; }
+        public DbSet<Series> Series { get; set; }
 
         /// <summary>
         /// Constructor
         /// </summary>
-        public FilmContext()
+        public SeriesContext()
         {
             //Create the database automaticly
             Database.EnsureCreated();
