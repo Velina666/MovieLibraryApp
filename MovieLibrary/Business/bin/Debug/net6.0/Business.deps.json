@@ -9,7 +9,6 @@
       "Business/1.0.0": {
         "dependencies": {
           "Data": "1.0.0",
-          "MLibDb": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2"
         },
         "runtime": {
@@ -460,17 +459,11 @@
       },
       "Data/1.0.0": {
         "dependencies": {
-          "MLibDb": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2"
         },
         "runtime": {
           "Data.dll": {}
-        }
-      },
-      "MLibDb/1.0.0": {
-        "runtime": {
-          "MLibDb.dll": {}
         }
       }
     }
@@ -762,11 +755,6 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MLibDb/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

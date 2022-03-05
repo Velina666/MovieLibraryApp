@@ -32,7 +32,7 @@ namespace Data
         /// </summary>
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connString = @"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = MLibDB; Integrated Security = True;:";
+            var connString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MLibraryDB;Integrated Security=True;";
             optionsBuilder.UseSqlServer(connString);
         }
     }

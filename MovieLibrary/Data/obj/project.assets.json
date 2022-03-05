@@ -594,16 +594,6 @@
             "rid": "win"
           }
         }
-      },
-      "MLibDb/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MLibDb.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MLibDb.dll": {}
-        }
       }
     }
   },
@@ -1768,16 +1758,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "MLibDb/1.0.0": {
-      "type": "project",
-      "path": "../MLibDb/MLibDb.csproj",
-      "msbuildProject": "../MLibDb/MLibDb.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MLibDb >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.2"
     ]
@@ -1813,11 +1797,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\MLibDb\\MLibDb.csproj": {
-              "projectPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\MLibDb\\MLibDb.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

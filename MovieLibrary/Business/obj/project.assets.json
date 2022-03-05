@@ -599,7 +599,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MLibDb": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2"
         },
@@ -608,16 +607,6 @@
         },
         "runtime": {
           "bin/placeholder/Data.dll": {}
-        }
-      },
-      "MLibDb/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MLibDb.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MLibDb.dll": {}
         }
       }
     }
@@ -1788,17 +1777,11 @@
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
-    },
-    "MLibDb/1.0.0": {
-      "type": "project",
-      "path": "../MLibDb/MLibDb.csproj",
-      "msbuildProject": "../MLibDb/MLibDb.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Data >= 1.0.0",
-      "MLibDb >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.2"
     ]
   },
@@ -1836,9 +1819,6 @@
           "projectReferences": {
             "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\Data\\Data.csproj"
-            },
-            "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\MLibDb\\MLibDb.csproj": {
-              "projectPath": "C:\\Users\\kocep\\Source\\Repos\\Konstantinn56\\MovieLibraryApp\\MovieLibrary\\MLibDb\\MLibDb.csproj"
             }
           }
         }

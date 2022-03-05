@@ -22,7 +22,7 @@ namespace Business
         {
             using (accountContext = new AccountContext())
             {
-                return accountContext.Accounts.Find(username);
+                return accountContext.Accounts.Where(a => a.Username.Equals(username)).FirstOrDefault();
             }
         }
 

@@ -17,23 +17,29 @@ namespace Data.Model
         public int Id { get; set; }
 
         /// <summary>
+        /// Person FirstName
+        /// </summary>
+        public string FirstName { get; set; }
+
+        /// <summary>
+        /// Person LastName
+        /// </summary>
+        public string LastName { get; set; }
+
+        /// <summary>
         /// Account username
         /// </summary>
-        public string User { get; set; }
+        public string Username { get; set; }
 
         /// <summary>
         /// Account password
         /// </summary>
-        public string Pass { get; set; }
+        public string Password { get; set; }
 
         /// <summary>
         /// Account Reset Key
         /// </summary>
         public int RecoveryKey { get; set; }
 
-        /// <summary>
-        /// The birth day of the person, who owns this Account
-        /// </summary>
-        public DateOnly BirthDay { get; set; }
     }
 }

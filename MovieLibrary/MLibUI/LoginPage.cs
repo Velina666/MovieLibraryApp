@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Business;
+using Data.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MLibUI.MainMenu;
 
 namespace MLibUI
 {
@@ -16,6 +19,11 @@ namespace MLibUI
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// Creates account business
+        /// </summary>
+        private AccountBusiness accountBusiness = new AccountBusiness();
 
         /// <summary>
         /// Clears the text box and lblException and change the ForeColor of the textBox and the color of the underline
@@ -112,9 +120,9 @@ namespace MLibUI
         /// </summary>
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if (txtBoxUsr.Text.Length < 6)
+            if (txtBoxUsr.Text.Length < 4)
             {
-                lblUsrException.Text = "*must be at least 8 characters*";
+                lblUsrException.Text = "*must be at least 5 characters*";
             }
             else if (txtBoxUsr.Text.Length > 25)
             {
@@ -122,7 +130,19 @@ namespace MLibUI
             }
             else
             {
-                //account verfication code
+                Account currentAcc = accountBusiness.Get(txtBoxUsr.Text.ToString());
+                if (currentAcc == null || !currentAcc.Password.Equals(txtBoxPass.Text))
+                {
+                    MessageBox.Show("Incorrect Username or Password!");
+                }
+                else
+                {
+                    mainPage mp = new mainPage();
+                    mp.currentAccount = currentAcc;
+                    mp.Show();
+                    this.Hide();
+                }
+
             }
         }
 

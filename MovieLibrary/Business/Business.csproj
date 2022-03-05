@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Data\Data.csproj" />
-    <ProjectReference Include="..\MLibDb\MLibDb.csproj" />
   </ItemGroup>
 
 </Project>
